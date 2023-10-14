@@ -10,15 +10,15 @@ IC8gIFxfX18gID5fX18gIC8gIFxfX19fX18gIC9cX19fICA+X198ICB8X198ICBcX19fICA+X198
 ICAgCiAgICAgICBcLyAgICAgICBcLyAgICBcLyAgICAgICAgICBcLyAgICAgXC8gICAgICAgICAg
 ICAgICAgXC8gICAgICAgCg=="
 
-sleep 2
+sleep 1
 
 echo -e "\033[91m Welcome To Web Getter Tool\033[91m"
 
-sleep 2
+sleep 1
 
 echo -e "\033[92mAll rights reseved to: Egypt-Open-Source @github\033[92m"
 
-sleep 2
+sleep 1
 
 echo -e "\033[1;36m
 		  
@@ -38,7 +38,7 @@ then
 
     echo -e "\033[1;31mAdd Website Link\033[1;31m"
 
-    sleep 2
+    sleep 1
 
 read -p "Enter Website Link (Note: Add Website with http/https And Add Github Pages Only Without 'www': " website_link
 
@@ -66,7 +66,8 @@ echo ""
 
 echo -e "\033[1;31mAdd Website Link\033[1;31m"
 
-    sleep 2                                                                      
+    sleep 1
+    
 read -p "Enter Website Link (Note: Add Website with http/https And Add Github Pages Only Without 'www': " website_link
 
 sleep 1
