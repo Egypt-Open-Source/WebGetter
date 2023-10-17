@@ -15,7 +15,7 @@ echo -e "\033[91m Welcome To Web Getter Tool\033[0m"
 
 echo -e "\033[92mAll rights reseved to: Egypt-Open-Source @github\033[0m"
 
-echo -e "\033[93mCoded By MRX7014 @github\033[0m"
+echo -e "\033[93mCreated By MRX7014 @github\033[0m"
 
 echo -e "\033[1;36m
 		  
