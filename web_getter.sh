@@ -1,5 +1,4 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
 
 base64 -d <<<"CiBfXyAgICAgIF9fICAgICAgX19fLiAgICAgICBfX19fX19fXyAgICAgICAgX18gICAgX18gICAg
 ICAgICAgICAgICAgCi8gIFwgICAgLyAgXCBfX19fXF8gfF9fICAgIC8gIF9fX19fLyAgX19fX18v
@@ -12,9 +11,11 @@ ICAgICAgXC8gICAgICAgCg=="
 
 sleep 1
 
-echo -e "\033[91m Welcome To Web Getter Tool\033[91m"
+echo -e "\033[91m Welcome To Web Getter Tool\033[0m"
 
 echo -e "\033[92mAll rights reseved to: Egypt-Open-Source @github\033[0m"
+
+echo -e "\033[31mCoded By MRX7014 @github\033[0m"
 
 echo -e "\033[1;36m
 		  
@@ -81,12 +82,5 @@ echo ""
 sleep 2
 
 echo -e "\033[94m Website Source Saved At Folder Named $website_link\033[94m"
-
-echo -e "\033[31mInvalid option. Please choose 1 or 2.\033[0m"
-            sleep 1
-            continue
-            ;;
-    esac
-done
 
 fi
