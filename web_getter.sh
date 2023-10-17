@@ -14,11 +14,7 @@ sleep 1
 
 echo -e "\033[91m Welcome To Web Getter Tool\033[91m"
 
-sleep 1
-
-echo -e "\033[92mAll rights reseved to: Egypt-Open-Source @github\033[92m"
-
-sleep 1
+echo -e "\033[92mAll rights reseved to: Egypt-Open-Source @github\033[0m"
 
 echo -e "\033[1;36m
 		  
@@ -36,7 +32,7 @@ if [ $user == 1 ]
 then
     echo ""
 
-    echo -e "\033[1;31mAdd Website Link\033[1;31m"
+    echo -e "\033[1;31mAdd Website Link\033[0m"
 
     sleep 1
 
@@ -46,7 +42,7 @@ sleep 1
 
 echo ""
 
-echo -e "\033[94m Webiste Will Downloading Now\033[94m"
+echo -e "\033[94m Webiste Will Downloading Now\033[0m"
 
 sleep 2
 
@@ -56,7 +52,7 @@ echo ""
 
 sleep 2
 
-echo -e "\033[34m Website Source Saved At Folder Named $website_link\033[34m"
+echo -e "\033[34m Website Source Saved At Folder Named $website_link\033[0m"
 
 elif [ $user == 2 ]
 
@@ -64,7 +60,7 @@ then
 
 echo ""
 
-echo -e "\033[1;31mAdd Website Link\033[1;31m"
+echo -e "\033[1;31mAdd Website Link\033[0m"
 
     sleep 1
     
@@ -74,7 +70,7 @@ sleep 1
 
 echo ""
 
- echo -e "\033[94m Website Will Downloading Now\033[94m"
+ echo -e "\033[94m Website Will Downloading Now\033[0m"
 
 sleep 2
 
@@ -84,6 +80,13 @@ echo ""
 
 sleep 2
 
-echo -e "\033[34m Website Source Saved At Folder Named $website_link\033[34m"
+echo -e "\033[94m Website Source Saved At Folder Named $website_link\033[94m"
+
+echo -e "\033[31mInvalid option. Please choose 1 or 2.\033[0m"
+            sleep 1
+            continue
+            ;;
+    esac
+done
 
 fi
