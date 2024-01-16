@@ -31,6 +31,7 @@
 
 - Any Linux system or termux.
 
+> [!NOTE]
 > We recommended to use this free server to test this tool, Check this server form <a href="https://www.github.com/mrx7014/SSH-KaliLinux">SSH Kali Linux</a>
 >
 
@@ -74,7 +75,7 @@ After this type this command to open the tool
 
 - 2: It will get all website source code, contain HTML, CSS, and JS files and any other website linking with the website, and get audio and videos too.
 
-> **NOTE**
+> [!IMPORTANT]
 > When you add a website link you must add website secure at the first as **http/https** and you must add **www** too, But remember when you get **GitHub pages** source code don't add **www**.
 <br>
 
