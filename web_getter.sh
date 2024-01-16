@@ -11,20 +11,29 @@ ICAgICAgXC8gICAgICAgCg=="
 
 sleep 1
 
-echo -e "\033[91m Welcome To Web Getter Tool\033[0m"
+echo -e "\033[91mWelcome To Web Getter Tool\033[0m"
+
+sleep 1
 
 echo -e "\033[92mAll rights reseved to: Egypt-Open-Source @github\033[0m"
 
+sleep 1
+
 echo -e "\033[93mCreated By MRX7014 @github\033[0m"
+
+sleep 1
 
 echo -e "\033[1;36m
 		  
 1] Get basic Website Source
+[*] HTML,CSS,JavaScript
 
-2] Get All Website Source (include:Videos,Audios,etc...)              
+2] Get All Website Source              
+[*] Include All Website Files (HTML,CSS,JS,Audios,Videos,etc...)
 "
 echo -e "\033[33m"
-                
+echo -e "\033[92m[*] Note:Add Website Link with "http/https" And Add Github Pages Links Without 'www'\033[0m"
+
 read -p "Choose : " user
 
                  
@@ -33,17 +42,17 @@ if [ $user == 1 ]
 then
     echo ""
 
-    echo -e "\033[1;31mAdd Website Link\033[0m"
+    echo -e "\033[93m[*] Remember The Note Before Enter The Website Link\033[0m"
 
-    sleep 1
+    sleep 2
 
-read -p "Enter Website Link (Note: Add Website with http/https And Add Github Pages Only Without 'www': " website_link
+read -p "Enter Website Link: " website_link
 
 sleep 1
 
 echo ""
 
-echo -e "\033[94m Webiste Will Downloading Now\033[0m"
+echo -e "\033[94mWebiste Will Downloading Now\033[0m"
 
 sleep 2
 
@@ -53,7 +62,11 @@ echo ""
 
 sleep 2
 
-echo -e "\033[34m Website Source Saved At Folder Named $website_link\033[0m"
+echo -e "\033[34mWebsite Source Saved At Folder Named As Website Name\033[0m"
+
+echo "" 
+
+echo -e "\033[92mThanks For Using Our Tool <3"
 
 elif [ $user == 2 ]
 
@@ -61,17 +74,17 @@ then
 
 echo ""
 
-echo -e "\033[1;31mAdd Website Link\033[0m"
+echo -e "\033[92m[*] Remember The Note Before Enter The Website Link\033[0m"
 
-    sleep 1
+    sleep 2
     
-read -p "Enter Website Link (Note: Add Website with http/https And Add Github Pages Only Without 'www': " website_link
+read -p "Enter Website Link: " website_link
 
 sleep 1
 
 echo ""
 
- echo -e "\033[94m Website Will Downloading Now\033[0m"
+echo -e "\033[94mWebsite Will Downloading Now\033[0m"
 
 sleep 2
 
@@ -81,6 +94,9 @@ echo ""
 
 sleep 2
 
-echo -e "\033[94m Website Source Saved At Folder Named $website_link\033[94m"
+echo -e "\033[94mWebsite Source Saved At Folder Named As Website Name\033[94m"
 
+echo ""
+
+echo -e "\033[92mThanks For Using Our Tool <3"
 fi
