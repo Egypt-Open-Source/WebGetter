@@ -6,7 +6,7 @@
 **An open-source project allowed you to get any website source code in a few minutes**
 <br>
 
-# V1.0.0 released!
+# V1.2.0 released!
 </div>
 <br>
 <div align="center">
