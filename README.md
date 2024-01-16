@@ -43,13 +43,13 @@
 ```sh
 sudo apt install wget
 ```
-- After it is finished clone tool
+- After it is finished clone the tool
 ```sh
 curl https://raw.githubusercontent.com/Egypt-Open-Source/WebGetter/main/web_getter.sh >> web_getter.sh
 ```
 <div align="center">
   
-**Now tool and requirements are done, Let's know how to use the tool**
+**Now the tool and requirements are done, Let's know how to use the tool**
 </div>
 
 <br>
@@ -58,18 +58,18 @@ curl https://raw.githubusercontent.com/Egypt-Open-Source/WebGetter/main/web_gett
 ```sh
 chmod +x web_getter.sh
 ```
-After this type this command to open the tool
+After this enter this command to open the tool
 ```sh
 ./web_getter.sh
 ```
-- Now the tool is open.
+- Now the tool is opened.
 
 <div align="center">
   <img src="images/tool_sc.png" width="100%" alt="banner">
 </div>
 <br>
 
-- Now after the tool opens choose what you want
+- Now after the tool opened choose what you want
 
 - 1: It will get a basic website source code without any other website links with it and maybe not get videos and audio too.
 
@@ -79,7 +79,7 @@ After this type this command to open the tool
 > When you add a website link you must add website secure at the first as **http/https** and you must add **www** too, But remember when you get **GitHub pages** source code don't add **www**.
 <br>
 
-- After you add the link and press the enter tool will be saved the source code at a folder named like website name.
+- After you add the link and press enter the tool will save the source code at a folder named as website name.
 
 <div align="center">
   <img src="images/sc_saved.png" width="200%" alt="banner">
