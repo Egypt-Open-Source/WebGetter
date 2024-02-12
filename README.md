@@ -3,7 +3,7 @@
     </div>
 <div align="center">
   
-**An open-source project allowed you to get any website source code in a few minutes**
+**An open-source project which allows you to get any website source code in a few minutes**
 <br>
 
 # V1.2.0 released!
@@ -71,9 +71,9 @@ After this enter this command to open the tool
 
 - Now after the tool opened choose what you want
 
-- 1: It will get a basic website source code without any other website links with it and maybe not get videos and audio too.
+- 1: It will get a basic website source code without any other website links with it and may get videos and audio files too.
 
-- 2: It will get all website source code, contain HTML, CSS, and JS files and any other website linking with the website, and get audio and videos too.
+- 2: It will retrieve all website source code, including HTML, CSS, and JS files, along with any other websites linked to it. It will also capture audio and video content.
 
 > [!IMPORTANT]
 > When you add a website link you must add website secure at the first as **http/https** and you must add **www** too, But remember when you get **GitHub pages** source code don't add **www**.
