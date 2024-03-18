@@ -10,11 +10,6 @@ jobs:
   build:
     name: WebGetter
     runs-on: ubuntu-20.04
-    if: github.event.repository.owner.id == github.event.sender.id
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    permissions:
-      contents: write
     steps:
     - name: Check Out
       uses: actions/checkout@v4
