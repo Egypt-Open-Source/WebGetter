@@ -1,0 +1,43 @@
+name: Full Website Source Code
+
+on:
+  workflow_dispatch:
+    inputs:
+      WEBSITE_LINK_FULL:
+        description: 'Get All Website Source Include All Website Files (HTML,CSS,JS,Audios,Videos,etc...)'
+        required: true
+jobs:
+  build:
+    name: WebGetter
+    runs-on: ubuntu-20.04
+    if: github.event.repository.owner.id == github.event.sender.id
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    permissions:
+      contents: write
+    steps:
+    - name: Check Out
+      uses: actions/checkout@v4
+      
+    - name: Prepare the environment
+      run: |
+        sudo apt update
+        sudo apt -y install wget git bash zip
+
+    - name: Get Basic Website Source
+      run: |
+        wget -p -k ${{ github.event.inputs.WEBSITE_LINK_FULL }}
+        ls
+        sudo rm -r *.yml
+        zip -r website.zip *
+
+    - name: Upload Basic Souree to Release
+      uses: softprops/action-gh-release@master
+      with:
+        files: |
+          /home/runner/work/webgetter_actions/webgetter_actions/*.zip
+          
+        name: Full Website Source Code
+        tag_name: ${{ github.run_id }}
+        body: |
+          Website Link: ${{ github.event.inputs.WEBSITE_LINK_FULL }}
