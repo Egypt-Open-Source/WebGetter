@@ -41,7 +41,7 @@
 
 1. Fork this repository.
 
-2. Go to `Action` tab > `All workflows` > Choose type of source code you want `Basic` or `Full`
+2. Go to `Action` tab > `All workflows` > Choose type of source code you want `Basic` or `Full`.
 
 3. Press on `Run workflow` > Put website link > then press on `Run workflow` > Wait for 1m then go to `Actions` and you will get website source code. 
   
