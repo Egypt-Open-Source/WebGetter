@@ -28,7 +28,6 @@ jobs:
       run: |
         wget -p -k ${{ github.event.inputs.WEBSITE_LINK_BASIC }}
         ls
-        sudo rm -r *.yml
         zip -r website.zip *
 
     - name: Upload Basic Souree to Release
