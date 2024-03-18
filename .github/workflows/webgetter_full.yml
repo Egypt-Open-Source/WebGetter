@@ -34,7 +34,7 @@ jobs:
       uses: softprops/action-gh-release@master
       with:
         files: |
-          /home/runner/work/webgetter_actions/webgetter_actions/*.zip
+          /home/runner/work/WebGetter/WebGetter/*.zip
           
         name: Full Website Source Code
         tag_name: ${{ github.run_id }}
