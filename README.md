@@ -35,6 +35,16 @@
 > We recommended to use this free server to test this tool, Check this server form <a href="https://www.github.com/mrx7014/SSH-KaliLinux">SSH Kali Linux</a>
 >
 
+**You can use it from github actions too**
+
+## How to Use
+
+1. Fork this repository.
+
+2. Go to `Action` tab > `All workflows` > Choose type of source code you want `Basic` or `Full`
+
+3. Press on `Run workflow` > Put website link > then press on `Run workflow` > Wait for 1m then go to `Actions` and you will get website source code. 
+  
 <br>
 
 # ⚙️ Installation
