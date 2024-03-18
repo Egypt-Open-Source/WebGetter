@@ -21,6 +21,7 @@ jobs:
       
     - name: Prepare the environment
       run: |
+        pwd
         sudo apt update
         sudo apt -y install wget git bash zip
 
