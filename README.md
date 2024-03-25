@@ -3,7 +3,7 @@
     </div>
 <div align="center">
   
-**An open-source project which allows you to get any website source code in a few minutes**
+**An open-source project allows you to get any website source code in a few minutes**
 <br>
 
 # V1.2.1 released
