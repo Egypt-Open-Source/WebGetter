@@ -58,7 +58,7 @@ echo -e "\033[94mWebiste Will Downloading Now\033[0m"
 
 sleep 2
 
-wget -p -k $website_link
+wget -p -k $website_link > /dev/null 2>&1
 
 echo ""
 
@@ -90,7 +90,7 @@ echo -e "\033[94mWebsite Will Downloading Now\033[0m"
 
 sleep 2
 
-wget -mk $website_link
+wget -mk $website_link > /dev/null 2>&1
 
 echo ""
 
