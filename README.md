@@ -22,7 +22,7 @@
 
 <div align="center">
 
-<h1>Let's know how to use this</h1>
+<h2>Let's know how to use this</h2>
 
 </div>
 
