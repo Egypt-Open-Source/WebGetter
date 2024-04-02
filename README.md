@@ -16,13 +16,14 @@
 
 <div align="center">
   
-<a href="https://www.buymeacoffee.com/mrx7014"><img src="https://github.com/Mahmud0808/Iconify/blob/beta/.github/resources/bmc-button.png" width="30%" alt="Buy me a coffee" /></a>
+<a href="https://www.buymeacoffee.com/mrx7014"><img src="https://github.com/Mahmud0808/Iconify/blob/beta/.github/resources/bmc-button.png" width="50%" alt="Buy me a coffee" /></a>
 </div>
 <br>
 
 <div align="center">
 
-**Let's know how to use this**
+<h2>Let's know how to use this</h2>
+
 </div>
 
 <br>
