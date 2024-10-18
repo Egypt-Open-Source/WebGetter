@@ -76,7 +76,7 @@ After this enter this command to open the tool
 - Now the tool is opened.
 
 <div align="center">
-  <img src="images/tool_sc.png" width="110%" alt="TIT">
+  <img src="images/TIT.png" width="110%" alt="TIT">
 </div>
 <br>
 
