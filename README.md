@@ -20,12 +20,6 @@
 </div>
 <br>
 
-<div align="center">
-
-<h2>How to use</h2>
-
-</div>
-
 <br>
 
 # 🛠 Requirements:
