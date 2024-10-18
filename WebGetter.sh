@@ -12,25 +12,19 @@ ICAgCiAgICAgICBcLyAgICAgICBcLyAgICBcLyAgICAgICAgICBcLyAgICAgXC8gICAgICAgICAg
 ICAgICAgXC8gICAgICAgCg=="
 
 sleep 1
-
-echo -e "\033[91mWelcome To Web Getter Tool\033[0m"
-
+echo -e "\033[91mWelcome To WebGetter Tool v1.3.0\033[0m"
 sleep 1
-
 echo -e "\033[92mAll rights reseved to: Egypt-Open-Source @github\033[0m"
-
 sleep 1
-
 echo -e "\033[93mCreated By MRX7014 @github\033[0m"
-
 sleep 1
 
 echo -e "\033[1;36m
 		  
-1] Get basic Website Source
+1: Get basic Website Source
 [*] HTML,CSS,JavaScript
 
-2] Get All Website Source              
+2: Get All Website Source              
 [*] Include All Website Files (HTML,CSS,JS,Audios,Videos,etc...)
 "
 echo -e "\033[33m"
@@ -38,66 +32,50 @@ echo -e "\033[92m[*] Note:Add Website Link with "http/https" And Add Github Page
 
 read -p "Choose : " user
 
-                 
-if [ $user == 1 ]
-              
+if [ $user == 1 ]          
 then
-    echo ""
-
-    echo -e "\033[93m[*] Remember The Note Before Enter The Website Link\033[0m"
-
-    sleep 2
-
+echo ""
+echo -e "\033[93m[*] Remember The Note Before Enter The Website Link\033[0m"
+sleep 2
 read -p "Enter Website Link: " website_link
-
 sleep 1
-
 echo ""
-
+echo -e "\033[93m[*] Enter the website folder name that you want to sync the source in it, Don't enter name with spaces just a single name or name with - between the words\033[0m"
+read -p "Enter the folder name: " website_source_folder
+echo ""
+sleep 3
 echo -e "\033[94mWebiste Will Downloading Now\033[0m"
-
 sleep 2
 
-wget -p -k $website_link > /dev/null 2>&1
+wget -p -k $website_link -P $website_source_folder > /dev/null 2>&1
 
 echo ""
-
 sleep 2
-
-echo -e "\033[34mWebsite Source Saved At Folder Named As Website Name\033[0m"
-
+echo -e "\033[94mWebsite source saved at the folder you want\033[94m"
 echo "" 
 
 echo -e "\033[92mThanks For Using Our Tool <3"
 
 elif [ $user == 2 ]
-
 then
-
 echo ""
-
 echo -e "\033[92m[*] Remember The Note Before Enter The Website Link\033[0m"
-
-    sleep 2
-    
+sleep 2
 read -p "Enter Website Link: " website_link
-
 sleep 1
-
 echo ""
-
+echo -e "\033[93m[*] Enter the website folder name that you want to sync the source in it, Don't enter name with spaces just a single name or name with - between the words\033[0m"
+read -p "Enter the folder name: " website_source_folder
+echo ""
+sleep 3
 echo -e "\033[94mWebsite Will Downloading Now\033[0m"
-
 sleep 2
 
-wget -mk $website_link > /dev/null 2>&1
+wget -mk $website_link -P $website_source_folder > /dev/null 2>&1
 
 echo ""
-
 sleep 2
-
-echo -e "\033[94mWebsite Source Saved At Folder Named As Website Name\033[94m"
-
+echo -e "\033[94mWebsite source saved at the folder you want\033[94m"
 echo ""
 
 echo -e "\033[92mThanks For Using Our Tool <3"
