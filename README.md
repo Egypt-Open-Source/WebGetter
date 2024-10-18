@@ -57,24 +57,22 @@ curl https://raw.githubusercontent.com/Egypt-Open-Source/WebGetter/main/WebGette
 **Now the tool and requirements are done, Let's know how to use the tool**
 </div>
 
-<br>
-
 - First, give the tool permissions
 ```sh
 chmod +x WebGetter.sh
 ```
-After this enter this command to open the tool
+- After this enter this command to open the tool
 ```sh
 ./WebGetter.sh
 ```
-- Now the tool is opened.
+- Now the tool is working.
 
 <div align="center">
   <img src="images/TIT.png" width="110%" alt="TIT">
 </div>
 <br>
 
-- Now after the tool opened choose what you want
+### Now after the tool opened choose what you want
 
 - 1: It will get a basic website source code without any other website links with it and may get videos and audio files too.
 
@@ -87,10 +85,6 @@ After this enter this command to open the tool
 - After you add the link add the folder name which website source code will getting in it.
 
 <br>
-<!--
-# Live Preview
-https://github.com/mrx7014/test/assets/90919499/efe2d248-71ca-4222-951d-36391168601c
---!>
 
 # Credits:
 
