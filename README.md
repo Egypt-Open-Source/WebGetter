@@ -22,7 +22,7 @@
 
 <div align="center">
 
-<h2>Usage</h2>
+<h2>How to use</h2>
 
 </div>
 
