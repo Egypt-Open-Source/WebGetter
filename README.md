@@ -6,12 +6,12 @@
 **An open-source project allows you to get any website source code in a few minutes**
 <br>
 
-# V1.2.1 Released
+# V1.3.0 Released
 </div>
 <br>
 <div align="center">
   
-**Developed and brought to you by Team Egypt Open Source**
+**Developed and brought to you by Egypt Open Source Team**
 </div>
 
 <div align="center">
@@ -22,7 +22,7 @@
 
 <div align="center">
 
-<h2>Let's know how to use this</h2>
+<h2>Usage</h2>
 
 </div>
 
@@ -56,7 +56,7 @@ sudo apt install wget
 ```
 - After it is finished clone the tool
 ```sh
-curl https://raw.githubusercontent.com/Egypt-Open-Source/WebGetter/main/web_getter.sh >> web_getter.sh
+curl https://raw.githubusercontent.com/Egypt-Open-Source/WebGetter/main/WebGetter.sh >> WebGetter.sh
 ```
 <div align="center">
   
@@ -67,16 +67,16 @@ curl https://raw.githubusercontent.com/Egypt-Open-Source/WebGetter/main/web_gett
 
 - First, give the tool permissions
 ```sh
-chmod +x web_getter.sh
+chmod +x WebGetter.sh
 ```
 After this enter this command to open the tool
 ```sh
-./web_getter.sh
+./WebGetter.sh
 ```
 - Now the tool is opened.
 
 <div align="center">
-  <img src="images/tool_sc.png" width="100%" alt="banner">
+  <img src="images/TIT.png" width="110%" alt="TIT">
 </div>
 <br>
 
@@ -84,23 +84,20 @@ After this enter this command to open the tool
 
 - 1: It will get a basic website source code without any other website links with it and may get videos and audio files too.
 
-- 2: It will retrieve all website source code, including HTML, CSS, and JS files, along with any other websites linked to it. It will also capture audio and video content.
+- 2: It will get all website source code, including HTML, CSS, and JS files, along with any other websites linked to it. It will also get audio and video content.
 
 > [!IMPORTANT]
 > When you add a website link you must add website secure at the first as **http/https** and you must add **www** too, But remember when you get **GitHub pages** source code don't add **www**.
 <br>
 
-- After you add the link and press enter the tool will save the source code at a folder named as website name.
+- After you add the link add the folder name which website source code will getting in it.
 
-<div align="center">
-  <img src="images/sc_saved.png" width="200%" alt="banner">
-    </div>
 <br>
 <!--
 # Live Preview
 https://github.com/mrx7014/test/assets/90919499/efe2d248-71ca-4222-951d-36391168601c
 --!>
 
-# Contact US:
+# Credits:
 
 - Linktree: <a href="https://linktr.ee/mrx7014">MRX7014</a>
